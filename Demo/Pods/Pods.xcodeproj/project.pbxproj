@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306EDB1A09666C97CD29417AEF03B56E /* SimpleLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D51641301A095533C389697E15229CCC /* SimpleLayout-dummy.m */; };
+		35804C0FCD0319F571D681A1CBF533C2 /* SimpleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD20961FBCF513617A19BE6CEE9B135 /* SimpleLayout.swift */; };
+		3AC84C5E89C5F40134BC9FB7A000DBD7 /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BB621DC079400B25942B8ADE67C3D1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3ED71CE0E3314BA063ACFA1928FFF8F8 /* ToastSimplePosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C80973333A4B5714C5FDC79AE09B30 /* ToastSimplePosition.swift */; };
+		523094CB9538EE40746E8DD57AEB08B6 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */; };
+		605AA9307CA07F114BC51154B036521B /* SimpleLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8CF0D0D495D3C8936E5CD4741113916 /* SimpleLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E15D48768065ED946D8F83F245FDF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A7DA2BCDA255D7BAB0A94BC22CC26FAE /* UIView+SimpleLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AE05228458BD4A8BFADFC715E882E9 /* UIView+SimpleLayout.swift */; };
+		BAEE3F4973A7A4586524CC440750244A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D1F1D158810F7F73665A9258DB870494 /* ToastSimpleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6954F0123022A64759DB45527B9337EE /* ToastSimpleConfig.swift */; };
+		DA78546C691879ECF51445D015558CE2 /* ToastSimple-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A68A2F61FCC8D6CD365B2C00E914BD8 /* ToastSimple-dummy.m */; };
+		F3262A65FC77FCB2300CFDACCFA4BE91 /* ToastSimple-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A45966B1364597593572DDEF8BD813 /* ToastSimple-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA55AAAF88DB61CED9AAFC906D2D0A3D /* ToastSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44360BC79A0794E779E4EDC6B54CF76E /* ToastSimple.swift */; };
+		FDCA5AAD669DD9CA68D1EACC5051AB4C /* UIView+ToastSimple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D822B70172CE63184579AD08E9DBC76F /* UIView+ToastSimple.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23E3B73F3AFC952510AD6338BE6B506E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CC8D8E817C3F265477A2E5BC16BA85F;
+			remoteInfo = SimpleLayout;
+		};
+		54FEF6E8AF25542B934014A23D088E58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0E8F763B13F2DA170EFDBD826AD972;
+			remoteInfo = ToastSimple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
+		0921A31546BB894AAEF9A3F9A9D71487 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11021E4512F014CBBCB9ED4978690B54 /* ToastSimple.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ToastSimple.modulemap; sourceTree = "<group>"; };
+		15167DC2BF1CA4A0FBDEFFFAAD8407C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E8C2BEC1094655BC7F3D382563569C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A68A2F61FCC8D6CD365B2C00E914BD8 /* ToastSimple-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ToastSimple-dummy.m"; sourceTree = "<group>"; };
+		322419E99883B306EE7EC77959FCC8DF /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
+		3A645C9FDCF596C782F04E5449E98A2A /* ToastSimple-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToastSimple-prefix.pch"; sourceTree = "<group>"; };
+		3CD5A30239C90F1B549B4AB9299ECF16 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		3D653C9DA16200D75AD14323AA830C6B /* Pods-Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-resources.sh"; sourceTree = "<group>"; };
+		44360BC79A0794E779E4EDC6B54CF76E /* ToastSimple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToastSimple.swift; sourceTree = "<group>"; };
+		4DB6D90DB8DC2F2CF3C8B40A437CF398 /* SimpleLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SimpleLayout.modulemap; sourceTree = "<group>"; };
+		6954F0123022A64759DB45527B9337EE /* ToastSimpleConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToastSimpleConfig.swift; sourceTree = "<group>"; };
+		71940C1CEB7995DC34CFE54CAF1AEF88 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E160E22E8849AE78D33895E3D6D601B /* SimpleLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleLayout.framework; path = SimpleLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90A45966B1364597593572DDEF8BD813 /* ToastSimple-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ToastSimple-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8A76A055DCD29A49911509BAB02AE49 /* SimpleLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleLayout-prefix.pch"; sourceTree = "<group>"; };
+		A8DC414B0583649B55238D0F6797E53A /* ToastSimple.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ToastSimple.framework; path = ToastSimple.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36DE36ABCB56A5DD80C550E3A9DB172 /* ToastSimple.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ToastSimple.xcconfig; sourceTree = "<group>"; };
+		BCD20961FBCF513617A19BE6CEE9B135 /* SimpleLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleLayout.swift; path = Sources/SimpleLayout.swift; sourceTree = "<group>"; };
+		C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
+		CA19694C0AC41D598DE4ABFEB300E619 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		CE03783A7C4814A8BFEC0A87C8D10E55 /* SimpleLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SimpleLayout.xcconfig; sourceTree = "<group>"; };
+		D51641301A095533C389697E15229CCC /* SimpleLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SimpleLayout-dummy.m"; sourceTree = "<group>"; };
+		D822B70172CE63184579AD08E9DBC76F /* UIView+ToastSimple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+ToastSimple.swift"; sourceTree = "<group>"; };
+		DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		E1AE05228458BD4A8BFADFC715E882E9 /* UIView+SimpleLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SimpleLayout.swift"; path = "Sources/UIView+SimpleLayout.swift"; sourceTree = "<group>"; };
+		E68F8C86FB3267A3C87983DA9E269889 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CF0D0D495D3C8936E5CD4741113916 /* SimpleLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SimpleLayout-umbrella.h"; sourceTree = "<group>"; };
+		F1C80973333A4B5714C5FDC79AE09B30 /* ToastSimplePosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ToastSimplePosition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8A0699F9C5D1BB7017BABB0CB38BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BB621DC079400B25942B8ADE67C3D1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF94110C803BC309A86962CCAD0EC06B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E15D48768065ED946D8F83F245FDF9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0EF4F6320CF3FC5E5F12202501C9B05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAEE3F4973A7A4586524CC440750244A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DC2FE1890BF8130E9F472628DDA88A4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E8C2BEC1094655BC7F3D382563569C6 /* Info.plist */,
+				4DB6D90DB8DC2F2CF3C8B40A437CF398 /* SimpleLayout.modulemap */,
+				CE03783A7C4814A8BFEC0A87C8D10E55 /* SimpleLayout.xcconfig */,
+				D51641301A095533C389697E15229CCC /* SimpleLayout-dummy.m */,
+				A8A76A055DCD29A49911509BAB02AE49 /* SimpleLayout-prefix.pch */,
+				E8CF0D0D495D3C8936E5CD4741113916 /* SimpleLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SimpleLayout";
+			sourceTree = "<group>";
+		};
+		54191C3D91F3CDC312272016EB34F828 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15167DC2BF1CA4A0FBDEFFFAAD8407C4 /* Info.plist */,
+				11021E4512F014CBBCB9ED4978690B54 /* ToastSimple.modulemap */,
+				B36DE36ABCB56A5DD80C550E3A9DB172 /* ToastSimple.xcconfig */,
+				2A68A2F61FCC8D6CD365B2C00E914BD8 /* ToastSimple-dummy.m */,
+				3A645C9FDCF596C782F04E5449E98A2A /* ToastSimple-prefix.pch */,
+				90A45966B1364597593572DDEF8BD813 /* ToastSimple-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Demo/Pods/Target Support Files/ToastSimple";
+			sourceTree = "<group>";
+		};
+		68A8D2AA4546C504317B413CB202F7EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0921A31546BB894AAEF9A3F9A9D71487 /* Pods_Demo.framework */,
+				8E160E22E8849AE78D33895E3D6D601B /* SimpleLayout.framework */,
+				A8DC414B0583649B55238D0F6797E53A /* ToastSimple.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D1B2AB2B21A72FD13AD514BF6AB2FA4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				44360BC79A0794E779E4EDC6B54CF76E /* ToastSimple.swift */,
+				6954F0123022A64759DB45527B9337EE /* ToastSimpleConfig.swift */,
+				F1C80973333A4B5714C5FDC79AE09B30 /* ToastSimplePosition.swift */,
+				D822B70172CE63184579AD08E9DBC76F /* UIView+ToastSimple.swift */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECC58720C5754A079F9A150E40E2FCDD /* Pods-Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7907348A5FF04E354EF99832DE557A0B /* ToastSimple */ = {
+			isa = PBXGroup;
+			children = (
+				6D1B2AB2B21A72FD13AD514BF6AB2FA4 /* Sources */,
+				54191C3D91F3CDC312272016EB34F828 /* Support Files */,
+			);
+			name = ToastSimple;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F5EA34A696D2AC87F5E929C2AB4D78DB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9301DCF768274EFE992819B1072DDAAF /* Pods */,
+				68A8D2AA4546C504317B413CB202F7EC /* Products */,
+				6F2351C272926D3E0225FEFC2F9C5D1F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9301DCF768274EFE992819B1072DDAAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDC3D2365F9B725FBF547B7BF5AC6711 /* SimpleLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC3D2365F9B725FBF547B7BF5AC6711 /* SimpleLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BCD20961FBCF513617A19BE6CEE9B135 /* SimpleLayout.swift */,
+				E1AE05228458BD4A8BFADFC715E882E9 /* UIView+SimpleLayout.swift */,
+				4DC2FE1890BF8130E9F472628DDA88A4 /* Support Files */,
+			);
+			name = SimpleLayout;
+			path = SimpleLayout;
+			sourceTree = "<group>";
+		};
+		ECC58720C5754A079F9A150E40E2FCDD /* Pods-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E68F8C86FB3267A3C87983DA9E269889 /* Info.plist */,
+				322419E99883B306EE7EC77959FCC8DF /* Pods-Demo.modulemap */,
+				71940C1CEB7995DC34CFE54CAF1AEF88 /* Pods-Demo-acknowledgements.markdown */,
+				CA19694C0AC41D598DE4ABFEB300E619 /* Pods-Demo-acknowledgements.plist */,
+				C5BC86D40B890A7B0844F888209CA06F /* Pods-Demo-dummy.m */,
+				3CD5A30239C90F1B549B4AB9299ECF16 /* Pods-Demo-frameworks.sh */,
+				3D653C9DA16200D75AD14323AA830C6B /* Pods-Demo-resources.sh */,
+				03EA1E60232BFA05817BC26ACB8E68BA /* Pods-Demo-umbrella.h */,
+				CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */,
+				DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */,
+			);
+			name = "Pods-Demo";
+			path = "Target Support Files/Pods-Demo";
+			sourceTree = "<group>";
+		};
+		F5EA34A696D2AC87F5E929C2AB4D78DB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7907348A5FF04E354EF99832DE557A0B /* ToastSimple */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AC7BF8E40C68FB878C2166504F794E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605AA9307CA07F114BC51154B036521B /* SimpleLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		341EE052A96974A372072F5D69DC9232 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC84C5E89C5F40134BC9FB7A000DBD7 /* Pods-Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B62DB0983B398996B0D94FB3635AEA05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3262A65FC77FCB2300CFDACCFA4BE91 /* ToastSimple-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0189B10A58AF54CDC49E6F0655B2A7B0 /* Pods-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6EDF3598F6D7CEA888C2AA32802E0A /* Build configuration list for PBXNativeTarget "Pods-Demo" */;
+			buildPhases = (
+				5BAED97B15F00681DCB4CAF1E780332E /* Sources */,
+				AF94110C803BC309A86962CCAD0EC06B /* Frameworks */,
+				341EE052A96974A372072F5D69DC9232 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C43FC5FDD249DEF030D4476A059DF1DE /* PBXTargetDependency */,
+				C6AA58C066E81272A31C24127C14C8A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-Demo";
+			productName = "Pods-Demo";
+			productReference = 0921A31546BB894AAEF9A3F9A9D71487 /* Pods_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F0E8F763B13F2DA170EFDBD826AD972 /* ToastSimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F833F0245582EA7690D03AC8ACAE64D2 /* Build configuration list for PBXNativeTarget "ToastSimple" */;
+			buildPhases = (
+				DF35DCF65B323A558131FC498A5B6EA8 /* Sources */,
+				2B8A0699F9C5D1BB7017BABB0CB38BC0 /* Frameworks */,
+				B62DB0983B398996B0D94FB3635AEA05 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToastSimple;
+			productName = ToastSimple;
+			productReference = A8DC414B0583649B55238D0F6797E53A /* ToastSimple.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2CC8D8E817C3F265477A2E5BC16BA85F /* SimpleLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB96E6CA352A4CFDDBF243A25F12C789 /* Build configuration list for PBXNativeTarget "SimpleLayout" */;
+			buildPhases = (
+				F0D26752D4CB28EC2AA0C596ECB78DB5 /* Sources */,
+				D0EF4F6320CF3FC5E5F12202501C9B05 /* Frameworks */,
+				0AC7BF8E40C68FB878C2166504F794E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLayout;
+			productName = SimpleLayout;
+			productReference = 8E160E22E8849AE78D33895E3D6D601B /* SimpleLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 68A8D2AA4546C504317B413CB202F7EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0189B10A58AF54CDC49E6F0655B2A7B0 /* Pods-Demo */,
+				2CC8D8E817C3F265477A2E5BC16BA85F /* SimpleLayout */,
+				1F0E8F763B13F2DA170EFDBD826AD972 /* ToastSimple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BAED97B15F00681DCB4CAF1E780332E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523094CB9538EE40746E8DD57AEB08B6 /* Pods-Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF35DCF65B323A558131FC498A5B6EA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA78546C691879ECF51445D015558CE2 /* ToastSimple-dummy.m in Sources */,
+				FA55AAAF88DB61CED9AAFC906D2D0A3D /* ToastSimple.swift in Sources */,
+				D1F1D158810F7F73665A9258DB870494 /* ToastSimpleConfig.swift in Sources */,
+				3ED71CE0E3314BA063ACFA1928FFF8F8 /* ToastSimplePosition.swift in Sources */,
+				FDCA5AAD669DD9CA68D1EACC5051AB4C /* UIView+ToastSimple.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D26752D4CB28EC2AA0C596ECB78DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306EDB1A09666C97CD29417AEF03B56E /* SimpleLayout-dummy.m in Sources */,
+				35804C0FCD0319F571D681A1CBF533C2 /* SimpleLayout.swift in Sources */,
+				A7DA2BCDA255D7BAB0A94BC22CC26FAE /* UIView+SimpleLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C43FC5FDD249DEF030D4476A059DF1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleLayout;
+			target = 2CC8D8E817C3F265477A2E5BC16BA85F /* SimpleLayout */;
+			targetProxy = 23E3B73F3AFC952510AD6338BE6B506E /* PBXContainerItemProxy */;
+		};
+		C6AA58C066E81272A31C24127C14C8A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ToastSimple;
+			target = 1F0E8F763B13F2DA170EFDBD826AD972 /* ToastSimple */;
+			targetProxy = 54FEF6E8AF25542B934014A23D088E58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		223DEB69BA041B5F440B99802ECE4794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36DE36ABCB56A5DD80C550E3A9DB172 /* ToastSimple.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ToastSimple/ToastSimple-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ToastSimple/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ToastSimple/ToastSimple.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ToastSimple;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		485B404054F7EE985DF6112FD5543348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B36DE36ABCB56A5DD80C550E3A9DB172 /* ToastSimple.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ToastSimple/ToastSimple-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ToastSimple/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ToastSimple/ToastSimple.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ToastSimple;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE1DBFB792A9E8FD081562E660BDED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE03783A7C4814A8BFEC0A87C8D10E55 /* SimpleLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleLayout/SimpleLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleLayout/SimpleLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SimpleLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8E332E734B6FF5F24C9233B0535F4E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB0701F8F25395B1ED46510ED4B9797 /* Pods-Demo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDE9ECE2CDD508DEE230A97FB51C37A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE03783A7C4814A8BFEC0A87C8D10E55 /* SimpleLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SimpleLayout/SimpleLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SimpleLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SimpleLayout/SimpleLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SimpleLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F50B1942E686A36B8F24259D8E5E7BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC6A59B0ADA6CB2F51DAE6508E437829 /* Pods-Demo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6EDF3598F6D7CEA888C2AA32802E0A /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F50B1942E686A36B8F24259D8E5E7BCC /* Debug */,
+				A8E332E734B6FF5F24C9233B0535F4E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB96E6CA352A4CFDDBF243A25F12C789 /* Build configuration list for PBXNativeTarget "SimpleLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE1DBFB792A9E8FD081562E660BDED4 /* Debug */,
+				DDE9ECE2CDD508DEE230A97FB51C37A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F833F0245582EA7690D03AC8ACAE64D2 /* Build configuration list for PBXNativeTarget "ToastSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485B404054F7EE985DF6112FD5543348 /* Debug */,
+				223DEB69BA041B5F440B99802ECE4794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

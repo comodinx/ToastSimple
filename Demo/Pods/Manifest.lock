@@ -1,0 +1,19 @@
+PODS:
+  - SimpleLayout (0.2.1)
+  - ToastSimple (0.1.0)
+
+DEPENDENCIES:
+  - SimpleLayout
+  - ToastSimple (from `../`)
+
+EXTERNAL SOURCES:
+  ToastSimple:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SimpleLayout: 71971a2175eeac4f82b926662b0cf66ff697103f
+  ToastSimple: 4fbb48075bea524a857d03fca342979dd48cbbfa
+
+PODFILE CHECKSUM: b3400175d584fb07cf6bbdae26bcfc59101599a1
+
+COCOAPODS: 1.2.0.beta.1
